@@ -10,9 +10,9 @@ class Goods2 extends Goods {
         super.draw();
         if (this.sale == true) {
             console.log("Есть скидки");
-            document.querySelector(this.classname).innerHTML += "Есть скидка для Вас!!!"
+            document.querySelector(this.classname).innerHTML += "You have discount!!!"
         } else {
-            document.querySelector(this.classname).innerHTML += "Увы,на этой неделе скидок нет((("
+            document.querySelector(this.classname).innerHTML += "Sorry, you don't have discount((("
             console.log("Скидок нет");
         }
 
