@@ -79,9 +79,14 @@ console.log(valid.isValid);
 // Создайте на основе класса Valid2 объект valid2 и задайте пустой емейл и длину пароля больше 7.
 // Запустите метод validate(). Выведите объект в консоль.
 let valid2 = new Valid2("err","3434343434343",false,"err","err");
-console.log(valid2);
 valid2.validate();
+console.log(valid2);
+
 
 
 //Task 12.
-// Создайте на основе класса Valid2 объект valid3 и задайте не пустой емейл и длину пароля больше 7. Запустите метод validate(). Выведите объект в консоль.
+// Создайте на основе класса Valid2 объект valid3 и задайте не пустой емейл и длину пароля больше 7.
+// Запустите метод validate(). Выведите объект в консоль.
+let valid3 = new Valid2("m.mail@icloud.com","3454323",false);
+valid2.validate();
+console.log(valid3);

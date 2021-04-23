@@ -17,12 +17,14 @@ class Valid2  extends Valid{
             this.emailError = "min length 12";
         } else {
             this.emailError = "email-good";
+            this.isValid = true;
         }
         if (this.password < 6){
             this.passwordError = "min length 6";
             this.isValid = false;
         } else {
             this.passwordError = "Password-good";
+            this.isValid = true;
         }
     }
 }
